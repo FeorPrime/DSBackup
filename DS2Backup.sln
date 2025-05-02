@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS2Backup", "DS2Backup\DS2Backup.csproj", "{77F4AFCD-90EC-4B34-9F69-C3EC5025AC50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{FA547F60-606D-4189-9E7F-AC52893CB15F}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77F4AFCD-90EC-4B34-9F69-C3EC5025AC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F4AFCD-90EC-4B34-9F69-C3EC5025AC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F4AFCD-90EC-4B34-9F69-C3EC5025AC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F4AFCD-90EC-4B34-9F69-C3EC5025AC50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
