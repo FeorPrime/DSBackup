@@ -1,14 +1,14 @@
-# DS save backup manager (another one)
+# Minimalistic DS2:SOTFS (or whatever if you change folder names) save backup manager (yet another one)
 
-1. Create a backup folder with name corresponding to hex steam id
-2. zip all files from ds save directory to the backup folder with specified name \ tag
-3. restore from backup folder specified checkpoint
-4. some ui
-5. watch mode with auto backups at specified time periods
+It can create backups. Restore it. List it. Nothing else.
 
-## Additions:
+## Installation
 
-1. checkup player's name (and may be show it)
-2. show player's avatar
-3. show game preview xD (or idk, character preview like in game) and some saved game stats that can be retrieved from save file
-4. add some options of cloud saving
+1. Load code
+2. Build it `dotnet publish -p:PublishSingleFile=true`
+3. place result somewhere in `$PATH`
+4. Use it
+
+## Usage
+
+`ds2backup` without parameters will list all what it can. Or, you just can read code (it's short as gherkin)

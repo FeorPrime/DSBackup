@@ -2,6 +2,13 @@
 
 public static class ConsoleHelpers
 {
+    public static void PrintHeader(this string message)
+    {
+        Console.ForegroundColor = ConsoleColor.Cyan;
+        Console.WriteLine(message);
+        Console.ResetColor();
+    }
+    
     public static void PrintSuccess(this string message)
     {
         Console.ForegroundColor = ConsoleColor.Green;
@@ -29,4 +36,5 @@ public static class ConsoleHelpers
         Console.WriteLine(message);
         Console.ResetColor();
     }
+
 }
